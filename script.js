@@ -1,5 +1,5 @@
 $(document).data('enc1', 'U2FsdGVkX1/1lWegi1ckQfABTsV8AWNl8z8KfIQm7xa53VnD0PeBu3/bIS2oLA7TwINvkdTsszKfX12g9f0tyA==');
-$(document).data('enc2', 'U2FsdGVkX1+0CU0HGAebVgW5MaV05vfMrq83WlfCeyYarTkVCwZWNez65BLR5doYB+gTaxBqGNXMi0yKAliIIs7IkSdEXGSW65QXSq2+9NdX3wQaN2W9G6atg8hu9Pbj+s4SBFtIAO9Z/1CiyrTwQ==');
+$(document).data('enc2', 'U2FsdGVkX1/R6lrr5fiyKSlEy1AMLf1aalFUtJ2SueSO+K96fiN0THf68jR40Py58juAv5QafPhFyssygDlJyZ3XIYXSZCp50UfFpBv89xW7GtCEJA44TYYwVeMLt7b9zc/m0w1e64qMfwFv5z8kuA==');
 function dec(encrypted){
   // get password when function activates
   var pass = $('#cake').val();  
