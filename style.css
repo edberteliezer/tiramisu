@@ -1,0 +1,64 @@
+body{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh;
+  align-items: center;
+  justify-items: center; /* adjusted */
+  
+}
+
+:root {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+  --active-brightness: 0.85;
+  --border-radius: 5px;
+  --box-shadow: 2px 2px 10px;
+  --color-accent: #118bee15;
+ --color-bg: #051701;
+  --color-bg-secondary: #3bd303;
+  --color-link: #3bd303;
+  --color-secondary: #920de9;
+  --color-secondary-accent: #1e12250a;
+  --color-shadow: #f4f4f4;
+  --color-table: #118bee;
+  --color-text: #3bd303;
+  --color-text-secondary: #999;
+  --font-family: monospace, monospace;
+  --hover-brightness: 1.2;
+  --justify-important: center;
+  --justify-normal: left;
+  --line-height: 1.5;
+  --width-card: 285px;
+  --width-card-medium: 460px;
+  --width-card-wide: 800px;
+  --width-content: 1080px;
+  --text-shadow:0 0 5px hsl(154 84% 70%);
+  
+  text-shadow: var(--text-shadow);
+    
+}
+i{
+  font-style:normal;
+}
+i,b{
+  box-shadow: var(--text-shadow);
+}
+input{
+  background:transparent;
+  color:var(--color-link);
+  text-shadow: var(--text-shadow);
+  
+  border:0;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  text-shadow: var(--text-shadow);
+    outline: none;
+  color:#53f218;
+}
